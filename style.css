@@ -60,6 +60,9 @@ html{
         } 
 
 @media screen and (max-width: 400px){
+    body{
+        background-color: red;
+    }
     .side-nav{
         width: 35%;
     }
