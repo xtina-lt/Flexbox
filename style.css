@@ -59,7 +59,8 @@ body{
             height: 15%;
         } 
 
-@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px){
+@media screen and (min-device-width : 414px) 
+and (max-device-height : 736px) and (max-resolution: 401dpi){
     body{
         background-color: red;
     }
