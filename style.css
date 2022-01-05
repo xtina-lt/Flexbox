@@ -59,4 +59,27 @@ body{
             height: 15%;
         } 
 
-
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px)
+and (device-width : 414px)
+and (device-height : 736px)
+and (orientation : portrait) 
+and (-webkit-min-device-pixel-ratio : 3) 
+and (-webkit-device-pixel-ratio : 3){
+    body{
+        background-color: red;
+    }
+    .side-nav{
+        width: 35%;
+    }
+    .main{
+        overflow: scroll;
+        scrollbar-width: none;
+        width: 60%;
+    }
+    .sub-content {
+        background-color: rgba(255, 255, 0, 0.5);
+        width: 100%;
+    }
+}
