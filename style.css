@@ -59,7 +59,7 @@ body{
             height: 15%;
         } 
 
-@media only screen and (max-device-width: 480px) {
+@media all and (max-width: 480px) {
     .side-nav{
         width: 35%;
     }
