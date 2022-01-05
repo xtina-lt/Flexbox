@@ -59,20 +59,4 @@ body{
             height: 15%;
         } 
 
-@media screen and (max-width: 700px){
-    body{
-        background-color: red;
-    }
-    .side-nav{
-        width: 35%;
-    }
-    .main{
-        overflow: scroll;
-        scrollbar-width: none;
-        width: 60%;
-    }
-    .sub-content {
-        background-color: rgba(255, 255, 0, 0.5);
-        width: 100%;
-    }
-}
+
